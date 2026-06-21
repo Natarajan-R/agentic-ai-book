@@ -1,0 +1,13 @@
+# Dependencies for the SIMPLE concept examples (Chapters 1-14).
+# All examples run locally at zero cost on Ollama + qwen2.5:7b.
+# Install with:  pip install -r code_simple_examples/requirements.txt
+# Versions are pinned to the set this book was written and tested against.
+
+ollama==0.6.2
+langgraph==1.2.6
+langchain-ollama==1.1.0
+langchain-core==1.4.8
+chromadb==1.5.9
+sentence-transformers==5.6.0
+networkx==3.6.1
+python-dotenv==1.2.2

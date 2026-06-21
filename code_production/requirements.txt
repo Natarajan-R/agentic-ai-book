@@ -1,0 +1,59 @@
+# Production AI Agent — Book Chapter 8 onwards
+# ================================================
+# Complete production-grade agent system built with LangGraph.
+# Runs locally at zero cost via Ollama + Qwen2.5.
+# Suitable for enterprise deployment with real tool integrations.
+
+# Project structure:
+#
+#   prod_agent/
+#   ├── config/
+#   │   └── settings.py          # Pydantic settings, env config
+#   ├── core/
+#   │   ├── exceptions.py        # Structured exception hierarchy
+#   │   ├── logging.py           # OpenTelemetry-compatible structured logging
+#   │   ├── state.py             # LangGraph state definitions
+#   │   └── tokens.py            # Accurate token counting via tiktoken
+#   ├── memory/
+#   │   ├── episodic.py          # Conversation + task history
+#   │   ├── semantic.py          # Persistent ChromaDB vector store
+#   │   └── assembler.py         # Context window assembly
+#   ├── tools/
+#   │   ├── registry.py          # Tool registry with metadata
+#   │   ├── web_search.py        # Real DuckDuckGo search
+#   │   ├── rag.py               # RAG retrieval tool
+#   │   ├── compute.py           # Sandboxed code execution
+#   │   ├── files.py             # File operations
+#   │   └── human.py             # Human-in-the-loop tool
+#   ├── guardrails/
+#   │   ├── input.py             # Input validation + injection detection
+#   │   ├── tool_guard.py        # Pre/post tool execution guardrails
+#   │   └── output.py            # Output validation + PII redaction
+#   ├── agents/
+#   │   ├── reference.py         # Ch8: Complete reference agent
+#   │   ├── multi_agent.py       # Ch9: Orchestrator-worker system
+#   │   ├── kg_agent.py          # Ch10: Knowledge graph agent
+#   │   ├── tot_agent.py         # Ch11: Tree of Thought agent
+#   │   └── self_refining.py     # Ch14: Self-refining agent
+#   └── tests/
+#       ├── test_guardrails.py   # Security + guardrail tests
+#       ├── test_tools.py        # Tool integration tests
+#       ├── test_agent.py        # End-to-end agent tests
+#       └── test_security.py     # Red-team adversarial tests
+
+# Versions pinned to the set this book was written and tested against.
+langgraph==1.2.6
+langchain-ollama==1.1.0
+langchain-core==1.4.8
+chromadb==1.5.9
+pydantic==2.13.4
+pydantic-settings==2.14.2
+duckduckgo-search==8.1.1
+tiktoken==0.13.0
+opentelemetry-api==1.42.1
+opentelemetry-sdk==1.42.1
+networkx==3.6.1
+pytest==9.1.1
+pytest-asyncio==1.4.0
+python-dotenv==1.2.2
+structlog==26.1.0

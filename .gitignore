@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated runtime artifacts from running the examples
+code_production/data/
+**/data/
+*.db
+*.sqlite
+*.sqlite3
+output.txt
+brief.txt
+market_brief.txt
+research_notes.txt
+agent_history.json
+competitive_report.md
+
+# Editor / OS
+.~lock.*#
+.DS_Store
+.idea/
+.vscode/
