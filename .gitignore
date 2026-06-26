@@ -28,3 +28,6 @@ competitive_report.md
 .idea/
 .vscode/
 eval_baseline.json
+
+# Generated demo artifacts from the Ch1 brain/tool demo
+code_simple_examples/*_checklist.md
