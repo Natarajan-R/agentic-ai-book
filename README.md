@@ -4,8 +4,7 @@ Runnable code for the book **_Agentic AI — A Hands-On Guide_** by Natarajan
 Ramasamy. Every example runs **locally at zero cost** on [Ollama](https://ollama.com)
 with the `qwen2.5:7b` model — no API keys, no cloud bills, no GPU required.
 
-**Get the book:** [Amazon US](https://www.amazon.com/dp/B0H6R7SZZB) ·
-[Amazon India](https://www.amazon.in/dp/B0H6R7SZZB)
+📖 **Get it on Amazon Kindle:** [US](https://www.amazon.com/dp/B0H6R7SZZB) · [India](https://www.amazon.in/dp/B0H6R7SZZB)
 
 ---
 
@@ -72,6 +71,20 @@ A 7B model running locally is not perfectly deterministic — your output will
 sometimes differ from the book's, and occasionally the model makes a reasoning
 slip. The code is written defensively to behave reliably anyway; where the model
 is the weak link, the book explains the engineering that makes agents dependable.
+
+---
+
+## More books by the author
+
+Each one is a hands-on build with its code in the open.
+
+| Book | Amazon | Code |
+|---|---|---|
+| **Enterprise AI Workflow Automation: Building Resilient Agentic Systems** | [US](https://www.amazon.com/dp/B0HCZC7VCC) · [IN](https://www.amazon.in/dp/B0HCZC7VCC) | [auto-sre-graph](https://github.com/Natarajan-R/auto-sre-graph) |
+| **Building a Local AI Coding Agent** | [US](https://www.amazon.com/dp/B0H8B6QXXX) · [IN](https://www.amazon.in/dp/B0H8B6QXXX) | [local-ai-coding-agent](https://github.com/Natarajan-R/local-ai-coding-agent) |
+| **GraphRAG: Building an Intelligent Research Assistant with Knowledge Graphs** | [US](https://www.amazon.com/dp/B0H3QXVSY4) · [IN](https://www.amazon.in/dp/B0H3QXVSY4) | [graphrag-book-code](https://github.com/Natarajan-R/graphrag-book-code) |
+
+All titles → [Amazon author page](https://www.amazon.com/stores/author/B0H3T2MG83)
 
 ---
 
