@@ -4,7 +4,7 @@ Runnable code for the book **_Agentic AI — A Hands-On Guide_** by Natarajan
 Ramasamy. Every example runs **locally at zero cost** on [Ollama](https://ollama.com)
 with the `qwen2.5:7b` model — no API keys, no cloud bills, no GPU required.
 
-> Get the book on Kindle: **[add your Amazon link here]**
+
 
 ---
 
